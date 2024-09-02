@@ -6,7 +6,7 @@ const app = express();
 app.use(express.static('public'));
 app.use(express.json());
 
-const YOUR_DOMAIN = 'https://luxury-accord.vercel.app';
+const YOUR_DOMAIN = 'https://luxury-accord.vercel.app/';
 
 app.use(
   cors({
